@@ -42,7 +42,6 @@ web.waitForExist("//*[@class='cib-btn cib-pink-grad submit-order']");
 web.click("//*[@class='cib-btn cib-pink-grad submit-order']");
 
 
-Thread.sleep(2000);
 
 
 web.transaction('לוגו-דף הבית')
