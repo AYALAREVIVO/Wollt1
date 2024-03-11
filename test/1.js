@@ -56,3 +56,7 @@ web.click("(//*[@class='cib-btn cib-pink-grad ng-star-inserted'])[1]");
 web.transaction('אישור הזמנה')
 web.waitForExist("//*[@class='cib-btn cib-pink-grad submit-order']");
 web.click("//*[@class='cib-btn cib-pink-grad submit-order']");
+
+web.transaction('לוגו-דף הבית')
+web.waitForExist("//*[@class='cibus-logo']");
+web.click("//*[@class='cibus-logo']");
