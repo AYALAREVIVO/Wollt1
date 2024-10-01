@@ -9,7 +9,7 @@ web.waitForExist("//*[@class='login-btn cib-pink-grad']");
 web.click("//*[@class='login-btn cib-pink-grad']");
 
 
-web.type("id=password","Aa0527167617!" );
+web.type("id=password","Ar0527167617!" );
 web.waitForExist("//*[@class='login-btn cib-pink-grad']");
 web.click("//*[@class='login-btn cib-pink-grad']");
 
